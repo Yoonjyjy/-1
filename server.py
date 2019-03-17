@@ -13,8 +13,8 @@ def run_server(port=4000):
 
         conn, addr = s.accept()
         msg = conn.recv(1024)
-        s = ''.join(reversed(msg.decode()))
-        print(s) ## msg is a binary data, so we need to decode it
+        s = msg.decode()
+        print(s[::-1]) ## msg is a binary data, so we need to decode it
 
         conn.sendall(msg)
         conn.close()
