@@ -3,7 +3,6 @@
 import socket
 import argparse
 
-
 def run_server(port=4000):
     host = '' ## 127.0.0.1 Loopback
 
