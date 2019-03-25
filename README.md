@@ -27,6 +27,9 @@
   각각의 쉘에서 client2.py와 server2.py 실행 !
   <pre><code>python server2.py -p 8888 -d /Python/computerNetwork/computerNetwork_3</code></pre>
   <pre><code>python client2.py -i 127.0.0.1 -p 8888 -f "test.txt"</code></pre>
+  
+  * 전송하는 요소가 많아 헷갈릴 것을 우려해 전송내용 1 ~ 5의 식으로 주석을 추가하였음
+  * client2.py의 전송내용 1과 server2.py의 전송내용 1이 대응됨
  
   computerNetwork_3의 내용 : 
   
