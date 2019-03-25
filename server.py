@@ -3,6 +3,7 @@
 import socket
 import argparse
 
+
 def run_server(port=4000):
     host = '' ## 127.0.0.1 Loopback
 
@@ -12,8 +13,9 @@ def run_server(port=4000):
 
         conn, addr = s.accept()
         msg = conn.recv(1024)
-        s = msg.decode()
-        print(s[::-1]) ## msg is a binary data, so we need to decode it
+        s = msg.decode()        ## 문자열 받고
+        s = s[::-1]             ## 거꾸로 뒤집어 준 다음에 그 문자열을 전송
+        print(s) ## msg is a binary data, so we need to decode it
 
         conn.sendall(msg)
         conn.close()
