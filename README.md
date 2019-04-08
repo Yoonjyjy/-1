@@ -1,3 +1,40 @@
+# 5주차 과제 : threading 모듈을 사용해 다수의 client의 요청을 받을 수 있는 서버 작성 
+## null조 : 팀 대표 윤지영(2017037037), 팀원 김도형(2013040008), 박세호(2017037022)
+
+* thread_client.py
+  * -i : 서버 아이피
+  * -p : 포트 번호
+ 
+* thread_server.py
+  * -p : 포트 번호
+  
+* 사진 : 
+  * '실행 결과_5주차.PNG'
+
+* 실험 환경 :
+
+  각각의 쉘에서 thread_server.py와 thread_client.py 켜기!
+  (클라이언트는 다수의 요청을 받을 수 있는지 알아야 하므로 여러 창을 띄워 실행해야 하며 테스트의 경우 두 창을 띄움)
+  <pre><code>python thread_server.py –p 8888</code></pre>
+  <pre><code>python thread_client.py –p 8888 –i 127.0.0.1 </code></pre>
+  <pre><code>python thread_client.py –p 8888 –i 127.0.0.1 </code></pre>
+  
+  * 각각의 클라이언트가 다른 입력값을 넣으면 각자 뒤집은 문자열을 받을 수 있음
+ 
+  실행 결과 화면(위가 서버 실행, 아래 두 개가 클라이언트 실행) :
+  
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%EC%8B%A4%ED%96%89%EA%B2%B0%EA%B3%BC_5%EC%A3%BC%EC%B0%A8.PNG?raw=true)
+
+***
+***
+***
+
+# 4주차 과제 : 한글 파일로 조사결과 정리 후 제출
+
+***
+***
+***
+
 # 3주차 과제 : 클라이언트가 요청한 파일을 전송해주는 서버 구현
 ## null조 : 팀 대표 윤지영(2017037037), 팀원 김도형(2013040008), 박세호(2017037022)
 
