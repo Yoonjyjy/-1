@@ -21,10 +21,10 @@
   <pre><code>python talk_server.py –p 8888</code></pre>
   <pre><code>python talk_client.py –p 8888 –i 127.0.0.1 </code></pre>
  
-  실행 결과 화면(위가 서버 실행, 아래 두 개가 클라이언트 실행) :
+  실행 결과 화면(위가 서버 실행, 아래가 클라이언트 실행) :
   
   ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%EC%84%9C%EB%B2%84%20%EC%BA%A1%EC%B3%90.PNG?raw=true)
-  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%BA%A1%EC%B3%90.PNG?raw=true)
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%BA%A1%EC%B2%98.PNG?raw=true)
 
 ***
 ***
