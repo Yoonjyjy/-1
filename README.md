@@ -1,3 +1,35 @@
+# 6주차 과제 : threading 모듈을 사용해 서버와 클라이언트가 대화를 주고 받을 수 있는 프로그램 작성
+## null조 : 팀 대표 윤지영(2017037037), 팀원 김도형(2013040008), 박세호(2017037022)
+
+* talk_client.py
+  * -i : 서버 아이피
+  * -p : 포트 번호
+ 
+* talk_server.py
+  * -p : 포트 번호
+  
+* 사진 : 
+  * '서버 캡쳐.PNG'
+  * '클라이언트 캡쳐.PNG'
+
+
+* 실험 환경 :
+  * 서버는 클라이언트가 전송한 문자열 출력, input()으로 사용자 입력을 받아서 클라이언트에 전달
+  * 클라이언트는 서버가 전송한 문자열 출력, input()으로 사용자 입력을 받아서 서버에 전달
+  * 각각의 쉘에서 talk_server.py와 talk_client.py 켜기!
+  * 난이도 조절을 위해 서버는 1개의 클라이언트만 처리
+  <pre><code>python talk_server.py –p 8888</code></pre>
+  <pre><code>python talk_client.py –p 8888 –i 127.0.0.1 </code></pre>
+ 
+  실행 결과 화면(위가 서버 실행, 아래 두 개가 클라이언트 실행) :
+  
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%EC%84%9C%EB%B2%84%20%EC%BA%A1%EC%B3%90.PNG?raw=true)
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%BA%A1%EC%B3%90.PNG?raw=true)
+
+***
+***
+***
+
 # 5주차 과제 : threading 모듈을 사용해 다수의 client의 요청을 받을 수 있는 서버 작성 
 ## null조 : 팀 대표 윤지영(2017037037), 팀원 김도형(2013040008), 박세호(2017037022)
 
@@ -13,8 +45,8 @@
 
 * 실험 환경 :
 
-  각각의 쉘에서 thread_server.py와 thread_client.py 켜기!
-  (클라이언트는 다수의 요청을 받을 수 있는지 알아야 하므로 여러 창을 띄워 실행해야 하며 테스트의 경우 두 창을 띄움)
+  * 각각의 쉘에서 thread_server.py와 thread_client.py 켜기!
+  * (클라이언트는 다수의 요청을 받을 수 있는지 알아야 하므로 여러 창을 띄워 실행해야 하며 테스트의 경우 두 창을 띄움)
   <pre><code>python thread_server.py –p 8888</code></pre>
   <pre><code>python thread_client.py –p 8888 –i 127.0.0.1 </code></pre>
   <pre><code>python thread_client.py –p 8888 –i 127.0.0.1 </code></pre>
