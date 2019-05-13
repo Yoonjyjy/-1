@@ -1,3 +1,32 @@
+# 9주차 과제 : Linux에서 IP Packet을 수신해 Ethernet 헤더, IP 헤더, 페이로드를 는 프로그램 작성
+## null조 : 팀 대표 윤지영(2017037037), 팀원 김도형(2013040008), 박세호(2017037022)
+
+* ether_sniffer.py
+  
+* 사진 : 
+  * '9주차과제1.PNG' - ether_sniffer.py 실행 [1]
+  * '9주차과제2.PNG' - ether_sniffer.py 실행 [2]
+  * '9주차과제3.PNG' - ping google.com -c 1 실행
+
+* 실험 환경 :
+  * AF_PACKET을 사용하고 PROTOCOL_TYPE은 ETH_P_ALL을 사용. 
+  * Ethernet 헤더 파싱 후 Ether_type을 통해 IP 패킷인지 검사 후 IP 패킷일 때만 출력
+  * IP 헤더는 헤더의 길이를 먼저 구한 뒤 옵션을 제외한 길이에 맞게 파싱 
+  * While 루프를 통해 여러 번 동작하도록 작성 
+  * 프로그램 실행 뒤 google.com에 PING을 1번 보낸 결과를 캡쳐해 첨부
+  <pre><code>python3 ether_sniffer.py –i ens33</code></pre>
+  <pre><code>ping google.com -c 1</code></pre>
+ 
+  실행 결과 화면 :
+  
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/9%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C1.PNG?raw=true)
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/9%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C2.PNG?raw=true)
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/9%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C3.PNG?raw=true)
+
+***
+***
+***
+
 # 8주차 과제 : raw_sniffer.py를 이용해 패킷을  분석하여 한글 파일로 정리 후 제출
 ## null조 : 팀 대표 윤지영(2017037037), 팀원 김도형(2013040008), 박세호(2017037022)
 
