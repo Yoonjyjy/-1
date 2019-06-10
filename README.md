@@ -1,3 +1,25 @@
+# 12주차 Termproject : Traceroute 작성
+## null조 : 팀 대표 윤지영(2017037037), 팀원 김도형(2013040008), 박세호(2017037022)
+
+* traceroute.py
+
+* 사진 : 
+  * '텀프로젝트 ICMP.PNG' - icmp 실행
+  * '텀프로젝트 UDP.PNG' - udp 실행
+  * '텀프로젝트 ICMP 패킷.PNG' - wireshark로 icmp 실행 패킷 캡쳐
+  * '텀프로젝트 UDP 패킷.PNG' - wireshark로 udp 실행 패킷 캡쳐
+
+  실행 결과 화면 :
+  
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%ED%85%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20ICMP.PNG?raw=true)
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%ED%85%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20UDP.PNG?raw=true)
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%ED%85%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20ICMP%20%ED%8C%A8%ED%82%B7.PNG?raw=true)
+  ![result](https://github.com/Yoonjyjy/computerNetwork_1/blob/master/%ED%85%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20UDP%20%ED%8C%A8%ED%82%B7.PNG?raw=true)
+
+***
+***
+***
+
 # 10주차 과제 : ICMP Echo Request 패킷을 작성해서 전송하는 프로그램 작성
 ## null조 : 팀 대표 윤지영(2017037037), 팀원 김도형(2013040008), 박세호(2017037022)
 
